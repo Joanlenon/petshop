@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../vertical-carousel-with-tweenmax-js/src"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "aula_17_01"
+	}
+}

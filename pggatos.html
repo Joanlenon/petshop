@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <!--navegador-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="No LENON'S PetShop Petshop o maior petshop do Brasil, você econtra tudo para seu querido e amado pet. compra online e escolhe como quer receber seu produto. Retire na loja ou receba em casa*">
+    <!--Serve para dar uma descrição no pagina do google, onde vai aparecer o link e em baixo um resumo da página-->
+    <meta name="author" content="Giovanna Tonetto">
+    <!--Nome do autor que está fazendo a página-->
+    <meta name="keywords"
+        content="pet-shop, pet, cão, cachorro, gato, calopsita, piriquito, canário, tartatuga, peixes ornamentais">
+    <!--palavras chaves-->
+    <meta name="robots" content="index, follow">
+    <!--Ele vai incluir que minha página vai ser incluida nas listas de páginas. Follow= Ele vai linkar minhas outras páginas -->
+    <meta http-equiv="cache-control" content="no-cache">
+    <!--Para não ficar no  historico do cliente ou da pessoa que está usando-->
+    <meta http-equiv="content-langue" content="pt-br">
+    <!--Serve para mostrar quais idiomas sua página tem-->
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <!--navegação-->
+    <meta http-equiv="refresh" content="300">
+    <!--Auto-refresh, para a pessoa que deixa a página aberta por determinado tempo (Sites de notícias usam muito)-->
+
+    <!---<link rel="stylesheet" media="screen" type="text/css" href="css/stylesheet.css">-->
+
+    <link rel="stylesheet" href="css/stylebootstrap.css">
+    <link rel="shortcut icon" href="icones/pet-shop.png">
+    <!--media screen serve para visualização e print serve para impressão-->
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <!--Javascript nativo -->
+    <script src="script/scriptpets.js"></script>
+    <script src="script/script2.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <link rel="shorcut icon" href="icones/pet-shop.png">
+    <link rel="stylesheet" href="css/pets.css">
+
+
+
+    <title>LENON´S PetShop</title>
+
+</head>
+
+<body>
+    <!--Início do Cabeçalho-->
+    <header class="simple_header">
+        <div class="cont_header">
+
+            <table>
+                <tr>
+                    <td>
+                        <a href="index.html" class="link_header">
+                            <img class="icon_image" width="80" height="80" src="icones/animais-de-estimacao.png">
+                        </a>
+                        &nbsp;
+                        &nbsp;
+
+                    </td>
+                    <nav>
+                        <td>
+
+                            <ul class="navbar">
+
+                                <li>
+                                    <a href="index.html" class="link_header">
+                                        <span class="ts-1">LENON'S PetShop</span>
+                                    </a>
+                                    &nbsp;
+                                    &nbsp;
+                                </li>
+
+
+                                <li>
+                                    <a href="modelo.html" class="link_header">
+                                        <span class="ts-1">Quem somos</span>
+                                    </a>
+                                    &nbsp;
+                                    &nbsp;
+                                </li>
+
+
+                                <li>
+                                    <a href="#" class="link_header">
+                                        <span class="ts-1">Pets</span>
+                                    </a>
+                                    &nbsp;
+                                    &nbsp;
+
+
+                                    <ul class="navbar">
+                                        <li><a href="cachorão.html" class="link_header">Cachorros</a></li>
+                                        <li><a href="pggatos.html" class="link_header">Gatos</a></li>
+                                        <li><a href="aves.html" class="link_header">Aves</a></li>
+                                        <li><a href="peixes.html" class="link_header">Peixes Ornamentais</a></li>
+                                    </ul>
+
+                                </li>
+
+                                <li>
+                                    <a href="parceiros.html" class="link_header">
+                                        <span class="ts-1">Parceiros</span>
+                                    </a>
+                                    &nbsp;
+                                    &nbsp;
+                                </li>
+
+
+                                <li>
+                                    <a href="faleconosco.html" class="link_header">
+                                        <span class="ts-1">Contatos</span>
+                                    </a>
+                                    &nbsp;
+                                    &nbsp;
+                                </li>
+
+                            </ul>
+
+                        </td>
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+
+                            <ul class="nav navbar-nav navbar-right">
+                                <li>
+                                    <p class="navbar-text">Você já tem uma Conta ?</p>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span
+                                            class="caret"></span></a>
+                                    <ul id="login-dp" class="dropdown-menu">
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    Login via
+                                                    <div class="social-buttons">
+                                                        <a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i>
+                                                            Facebook</a>
+                                                        <a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i>
+                                                            Twitter</a>
+                                                    </div>
+                                                    ou
+                                                    <form class="form" role="form" method="post" action="login"
+                                                        accept-charset="UTF-8" id="login-nav">
+                                                        <div class="form-group">
+                                                            <label class="sr-only" for="exampleInputEmail2">Endereço de
+                                                                email</label>
+                                                            <input type="email" class="form-control"
+                                                                id="exampleInputEmail2" placeholder="Email address"
+                                                                required>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label class="sr-only"
+                                                                for="exampleInputPassword2">Senha</label>
+                                                            <input type="password" class="form-control"
+                                                                id="exampleInputPassword2" placeholder="Password"
+                                                                required>
+                                                            <div class="help-block text-right"><a href="">Esqueçeu a
+                                                                    Senha?</a></div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <button type="submit"
+                                                                class="btn btn-primary btn-block">Conecte-se in</button>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox">Mantenha-me conectado
+                                                            </label>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <div class="bottom text-center">
+                                                    Novo Aqui ? <a href="cadastro.html"><b>junte-se a nós</b></a>
+                                                </div>
+                                            </div>
+
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </nav>
+                </tr>
+            </table>
+
+        </div>
+    </header> <!--Fim do Cabeçalho-->
+
+    <br>
+    <br>
+    <!--Carousel + Album-->
+
+
+
+    <div class="linha">
+        <section>
+            <div class="coluna col3 sidebar">
+                <h3>Nossos Produtos</h3>
+                <ul class="sem-marcador sem-padding">
+                    <li><a hre="">Higiene para seu pet</a></li>
+                    <li><a hre="">Racão para seu pet</a></li>
+                    <li><a hre="">Brinquedos para seu pet</a></li>
+                    <li><a hre="">Casinhas para seu pet</a></li>
+                    <li><a hre="">Remedios para seu pet</a></li>
+
+                </ul>
+                <a hre="clientes.html" class="botao">Ver todos &raquo;</a>
+            </div>
+        </section>
+        <div class="coluna col9">
+
+            <h2>Nossos Gatinhos: <em>tico</em> </h2>
+            <img src="img/2021-05-12-como-deixar-os-gatos-mais-tranquilos.webp" alt="" />
+            <p>Este é o tico que está a procura de ma familia que possada amor e carinho para ele,venha e confira nossos
+                gatinhos que estão a
+                espera por você !!!!
+            </p>
+        </div>
+
+
+
+    </div>
+
+
+
+    <div class="conteudo-extra">
+        <div class="linha">
+            <div class="coluna col7">
+                <section>
+                    <h2>Como um gatinho pode ajudar minha vida?</h2>
+                    <p>Os animais tem um poder de nos deixar, animados,alegres e até mesmo sadios.</p>
+                    <p>Algumas culturas acreditam que até mesmo eles podem afastar energias e espirtos ruins.</p>
+                    <p>dados os fatos e as cronicas o certo é que ter um pet ao seu lado é um bom investimento.</p>
+                </section>
+            </div>
+            <div class="coluna col5">
+                <h3>Últimas notícias</h3>
+                <ul class="sem-marcador sem-padding noticias">
+                    <li>
+                        <img src="img/images (4).jpg" alt="" />
+                        <h4>Tudo sobre higiene</h4>
+                        <p>Aqui está as ultimas novidades de ultensilhos para a higiene de seu pet .<a hre="">Leia
+                                mais &raquo;</a></p>
+
+                    </li>
+                    <li>
+                        <img src="img/images (6).jpg" alt="" />
+                        <h4> Tudo sobre o conforto para seu pet</h4>
+                        <p>venha e confira as novidades de casinhas e alofadas para a Segurança e conforto de seu
+                            gatinho.<a hre="">Leia
+                                mais &raquo;</a></p>
+
+                    </li>
+                    <li>
+                        <img src="img/images.jpg" alt="" />
+                        <h4>Tudo sobre a alimentação para seu cat</h4>
+                        <p>aqui está as melhores marcas e produtos para seu gatinho, aqui você encontra petisco entre
+                            outros ...<a hre="">Leia
+                                mais &raquo;</a></p>
+
+                    </li>
+                </ul>
+
+
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!--Fim Carousel + Album-->
+    <br>
+    <br>
+    <!--Início Rodapé-->
+
+
+    <hr>
+    <footer>
+        <div class="cont_footer">
+            <footer class="simple_footer">
+                <span>
+                    &#169;joan lenon Deus Barbosa
+                    <a href="mailt:joanlenon@gmail.com">joanlenon@gmail.com</a>
+                </span>
+                <br>
+                <span>2023 - 2023. Todos os direitos reservados. Segurança e Privacidade.</span>
+
+            </footer>
+        </div>
+        <!--Fim do Rodapé-->
+    </footer>
+</body>
+
+
+
+
+</html>

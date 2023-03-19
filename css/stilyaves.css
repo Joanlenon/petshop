@@ -1,0 +1,52 @@
+\\ESTE É O NOVO ESTILO DE PÁGINA WEB
+.headers {
+display:contents;
+flex-direction:column-reverse;
+justify-content: space-between;
+align-items: center;
+background-color: #b1476d;
+padding: 20px 20px;
+}
+.navs {
+width: 200px;
+display:flex;
+justify-content: space-between;
+}
+body{
+    background: rgb(236, 37, 220);;
+}
+
+main {
+padding: 20px 0px;
+display: flex;
+justify-content: space-around;
+background-color:#ccc;
+;
+}
+section, aside {
+width: 45%;
+}
+section header {
+padding: 10px;
+text-align: center;
+background-color: rgb(236, 37, 220);
+}
+section div {
+padding: 10px;
+text-align: center;
+background-color: #fd7edd;
+}
+aside header {
+padding: 10px;
+text-align: center;
+background-color: rgb(236, 37, 220);
+}
+aside div {
+padding: 10px;
+text-align: center;
+background-color: #fd7edd;
+}
+li{
+position: relative;
+flex-direction: column;
+}

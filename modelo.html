@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <!--navegador-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="No LENON'S PETSHOP o maior petshop do Brasil, você econtra tudo para seu querido e amado pet. compra online e escolhe como quer receber seu produto. Retire na loja ou receba em casa*">
+    <!--Serve para dar uma descrição no pagina do google, onde vai aparecer o link e em baixo um resumo da página-->
+    <meta name="author" content="joanlenon">
+    <!--Nome do autor que está fazendo a página-->
+    <meta name="keywords"
+        content="pet-shop, pet, cão, cachorro, gato, calopsita, piriquito, canário, tartatuga, peixes ornamentais">
+    <!--palavras chaves-->
+    <meta name="robots" content="index, follow">
+    <!--Ele vai incluir que minha página vai ser incluida nas listas de páginas. Follow= Ele vai linkar minhas outras páginas -->
+    <meta http-equiv="cache-control" content="no-cache">
+    <!--Para não ficar no  historico do cliente ou da pessoa que está usando-->
+    <meta http-equiv="content-langue" content="pt-br">
+    <!--Serve para mostrar quais idiomas sua página tem-->
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <!--navegação-->
+    <meta http-equiv="refresh" content="300">
+    <!--Auto-refresh, para a pessoa que deixa a página aberta por determinado tempo (Sites de notícias usam muito)-->
+
+
+
+
+    <!--CSS Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--Javascript Bootstrap-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!--CSS nativo-->
+    <link rel="stylesheet" media="screen" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/pets.css">
+    <link rel="shortcut icon" href="icones/pet-shop.png">
+
+
+
+
+
+    <title>LENON'S PETSHOP</title>
+
+</head>
+
+
+<body>
+    <!--Início do Cabeçalho-->
+    <div class="cont_header">
+        <header class="simple_header">
+            <table>
+                <tr>
+                    <td>
+                        <a href="index.html" class="link_header">
+                            <img class="icon_image" width="80" height="80" src="icones/animais-de-estimacao.png"></a>
+
+                        &nbsp;
+                        &nbsp;
+
+                    </td>
+                    <nav>
+                        <td>
+
+                            <ul class="navbar">
+
+                                <li>
+                                    <a href="index.html" class="link_header">
+                                        <span class="ts-1">LENON'S PetShop</span>
+                                    </a>
+                                    &nbsp;
+                                    &nbsp;
+                                </li>
+
+
+                                <li>
+                                    <a href="modelo.html" class="link_header">
+                                        <span class="ts-1">Quem somos</span>
+                                    </a>
+                                    &nbsp;
+                                    &nbsp;
+                                </li>
+
+
+                                <li>
+                                    <a href="#" class="link_header">
+                                        <span class="ts-1">Pets</span>
+                                    </a>
+                                    &nbsp;
+                                    &nbsp;
+
+
+                                    <ul class="navbar">
+                                        <li><a href="cachorão.html" class="link_header">Cachorros</a></li>
+                                        <li><a href="pggatos.html" class="link_header">Gatos</a></li>
+                                        <li><a href="aves.html" class="link_header">Aves</a></li>
+                                        <li><a href="peixes.html" class="link_header">Peixes Ornamentais</a></li>
+                                    </ul>
+
+                                </li>
+
+                                <li>
+                                    <a href="parceiros.html" class="link_header">
+                                        <span class="ts-1">Parceiros</span>
+                                    </a>
+                                    &nbsp;
+                                    &nbsp;
+                                </li>
+
+
+                                <li>
+                                    <a href="faleconosco.html" class="link_header">
+                                        <span class="ts-1">Contatos</span>
+                                    </a>
+                                    &nbsp;
+                                    &nbsp;
+                                </li>
+                            </ul>
+
+
+
+                        </td>
+
+
+
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+
+                            <ul class="nav navbar-nav navbar-right">
+                                <li>
+                                    <p class="navbar-text">Você já tem uma Conta ?</p>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span
+                                            class="caret"></span></a>
+                                    <ul id="login-dp" class="dropdown-menu">
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    Login via
+                                                    <div class="social-buttons">
+                                                        <a href="https://pt-br.facebook.com/login/device-based/regular/login/"
+                                                            class="btn btn-fb"><i class="fa fa-facebook"></i>
+                                                            Facebook</a>
+                                                        <a href="https://twitter.com/i/flow/login" class="btn btn-tw"><i
+                                                                class="fa fa-twitter"></i>
+                                                            Twitter</a>
+                                                    </div>
+                                                    ou
+                                                    <form class="form" role="form" method="post" action="login"
+                                                        accept-charset="UTF-8" id="login-nav">
+                                                        <div class="form-group">
+                                                            <label class="sr-only" for="exampleInputEmail2">Endereço de
+                                                                email</label>
+                                                            <input type="email" class="form-control"
+                                                                id="exampleInputEmail2" placeholder="Email address"
+                                                                required>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label class="sr-only"
+                                                                for="exampleInputPassword2">Senha</label>
+                                                            <input type="password" class="form-control"
+                                                                id="exampleInputPassword2" placeholder="Password"
+                                                                required>
+                                                            <div class="help-block text-right"><a href="">Esqueçeu a
+                                                                    Senha?</a></div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <button type="submit"
+                                                                class="btn btn-primary btn-block">Conecte-se in</button>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox">Mantenha-me conectado
+                                                            </label>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <div class="bottom text-center">
+                                                    Novo Aqui ? <a href="cadastro.html"><b>junte-se a nós</b></a></div>
+
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </nav>
+                </tr>
+            </table>
+        </header>
+
+
+         
+
+        <head>
+              
+              <style type="text/css">
+                body {
+                    background-color: #CCC;
+                    font-family: Tahoma, Arial;
+                }
+
+                #posiciona {
+                    position: absolute;
+                    /* posição absoluta ao elemento pai, neste caso o BODY */
+                    /* Posiciona no meio, tanto em relação a esquerda como ao topo */
+                    left: 50%;
+                    top: 50%;
+                    width: 300px;
+                    /* Largura da DIV */
+                    height: 250px;
+                    /* Altura da DIV */
+                    /* A margem a esquerda deve ser menos a metade da largura */
+                    /* A margem ao topo deve ser menos a metade da altura */
+                    /* Fazendo isso, centralizará a DIV */
+                    margin-left: -150px;
+                    margin-top: -125px;
+                    background-color: #813030;
+                    color: #0c0909;
+                    background-color: #e627bc;
+                    text-align: center;
+                    /* Centraliza o texto */
+                    z-index: 1000;
+                    /* Faz com que fique sobre todos os elementos da página */
+                }
+
+                #fechar {
+                    margin: 5px;
+                    font-size: 12px;
+                }
+            </style>
+              
+            <script>
+                function fechar() {
+                    document.getElementById("posiciona").style.display = 'none';
+                    alert("Você Deseja Fechar?");
+                } </script>
+
+
+
+
+
+             
+        </head>
+          
+        <!--o elemento BODY por padrão tem posição relativa-->
+
+        <body>
+             
+            <div id="posiciona">
+                <div id="fechar" align=right><a href="javascript:fechar();">FECHAR</a></div>
+                <p>10% off para novos clientes</p>
+                <p>clique aqui e saiba mais !!!</p>
+
+                 <button><a href="cadastro.html"> clique aqui</button></a>
+            </div>
+
+        </body>
+
+
+
+        <div class="cont_home_principal">
+
+            <main>
+                <section class="py-5 text-center container">
+                    <div class="row py-lg-5">
+
+
+                        <h1 class="fw-light">Sejam bem vindos ao Lenon's Pet Shop !!!</h1>
+                        <div class="col-lg-6 col-md-8 mx-auto">
+                            &nbsp;
+                            <p class="lead text-muted">
+                                Essa é nossa plataforma virtual com informações detalhadas sobre produtos e serviços que
+                                oferecemos aos nossos clientes e amigos!!!
+                            </p>
+                            <p>
+                                <a href="https://www.facebook.com/joanlenon.barbosa/" class="btn btn-primary my-2">Link
+                                    Facebook</a>
+                                <a href="https://www.instagram.com/joanlenon/" class="btn btn-secondary my-2"> Link
+                                    Instagram</a>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col"> <!--Album 1-->
+                <div class="card shadow-sm">
+                    <div class="cont_carousel">
+                        <ul class="slider">
+                            <li>
+                                <input type="radio" id="slide1" name="slide" checked>
+                                <label for="slide1"></label>
+                                <img src="img/passaros-domesticos.jpg" />
+                            </li>
+
+                            <li>
+                                <input type="radio" id="slide2" name="slide">
+                                <label for="slide2"></label>
+                                <img src="img/cao.jpg" />
+                            </li>
+
+                            <li>
+                                <input type="radio" id="slide3" name="slide">
+                                <label for="slide3"></label>
+                                <img src="img/carinhogato.jpg" />
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            Esses animais serão melhor escolha de se fazer para ter!
+
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Abrir link</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col"> <!--Album 2-->
+                <div class="card shadow-sm">
+                    <div class="cont_carousel2">
+                        <ul class="slider">
+                            <li>
+                                <input type="radio" id="slide4" name="slide4" checked />
+                                <!--Tag input, type radio serve para deixar a pessoa só escolher uma opção-->
+                                <label for="slide4"></label>
+                                <img src="img/peixebeta.jpg">
+                            </li>
+
+                            <li>
+                                <input type="radio" id="slide5" name="slide5" />
+                                <!--Tag input, type radio serve para deixar a pessoa só escolher uma opção-->
+                                <label for="slide5"></label>
+                                <img src="img/canariolindo.jpg">
+                            </li>
+
+                            <li>
+                                <input type="radio" id="slide6" name="slide6" />
+                                <!--Tag input, type radio serve para deixar a pessoa só escolher uma opção-->
+                                <label for="slide6"></label>
+                                <img src="img/gatoruivo.jpg">
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="card-body">
+
+                        <p class="card-text">
+                            Esses animais serão melhor escolha de se fazer para ter!
+
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Abrir Link</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col"> <!--Album 3-->
+                <div class="card shadow-sm">
+                    <div class="cont_carousel2">
+                        <ul class="slider">
+                            <li>
+                                <input type="radio" id="slide7" name="slide7" checked />
+                                <!--Tag input, type radio serve para deixar a pessoa só escolher uma opção-->
+                                <label for="slide7"></label>
+                                <img src="img/peixes-.jpg">
+                            </li>
+
+                            <li>
+                                <input type="radio" id="slide8" name="slide8" />
+                                <!--Tag input, type radio serve para deixar a pessoa só escolher uma opção-->
+                                <label for="slide8"></label>
+                                <img src="img/gatoruivo.jpg">
+                            </li>
+
+                            <li>
+                                <input type="radio" id="slide9" name="slide9" />
+                                <!--Tag input, type radio serve para deixar a pessoa só escolher uma opção-->
+                                <label for="slide9"></label>
+                                <img src="img/canariolindo.jpg">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            Esses animais serão melhor escolha de se fazer para ter!
+
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Abrir Link</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <br>
+        <br>
+        <br>
+
+        <!--Início Rodapé-->
+        <hr>
+        <div class="cont_footer">
+            <footer class="simple_footer">
+                <span>
+                    &#169;Joan lenon Deus Barbosa
+                    <a href="mailto:joanlenon@gmail.com">joanlenon@gmail.com</a>
+                </span>
+                <br>
+                <span>2023 - 2023. Todos os direitos reservados. Segurança e Privacidade.</span>
+
+            </footer>
+        </div>
+        <!--Fim do Rodapé-->
+
+
+
+
+
+</body>
+
+</html>

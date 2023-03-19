@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <!--navegador-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Na LENON'S PETSHOP o maior petshop do Brasil, você econtra tudo para seu querido e amado pet. compra online e escolhe como quer receber seu produto. Retire na loja ou receba em casa*">
+  <!--Serve para dar uma descrição no pagina do google, onde vai aparecer o link e em baixo um resumo da página-->
+  <meta name="author" content="joanlenon">
+  <!--Nome do autor que está fazendo a página-->
+  <meta name="keywords"
+    content="pet-shop, pet, cão, cachorro, gato, calopsita, piriquito, canário, tartatuga, peixes ornamentais">
+  <!--palavras chaves-->
+  <meta name="robots" content="index, follow">
+  <!--Ele vai incluir que minha página vai ser incluida nas listas de páginas. Follow= Ele vai linkar minhas outras páginas -->
+  <meta http-equiv="cache-control" content="no-cache">
+  <!--Para não ficar no  historico do cliente ou da pessoa que está usando-->
+  <meta http-equiv="content-langue" content="pt-br">
+  <!--Serve para mostrar quais idiomas sua página tem-->
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <!--navegação-->
+  <meta http-equiv="refresh" content="300">
+  <!--Auto-refresh, para a pessoa que deixa a página aberta por determinado tempo (Sites de notícias usam muito)-->
+
+
+
+
+  <!--CSS Bootstrap-->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <!--<link rel="stylesheet" type="text/css" href="css/stylebootstrap.css">-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <!--CSS nativo-->
+  <link rel="stylesheet" media="screen" type="text/css" href="css/stylesheet.css">
+  <link rel="stylesheet" href="css/pets.css">
+  <link rel="shortcut icon" href="icones/pet-shop.png">
+  <title>LENON'S PETSHOP</title>
+
+</head>
+
+<body>
+  <!--Início do Cabeçalho-->
+  <div class="cont_header">
+    <header class="simple_header">
+      <table>
+        <tr>
+          <td>
+            <a href="index.html" class="link_header">
+              <img class="icon_image" width="80" height="80" src="icones/animais-de-estimacao.png"></a>
+
+            &nbsp;
+            &nbsp;
+
+          </td>
+          <nav>
+            <td>
+
+              <ul class="navbar">
+
+                <li>
+                  <a href="index.html" class="link_header">
+                    <span class="ts-1">LENON'S PetShop</span>
+                  </a>
+                  &nbsp;
+                  &nbsp;
+                </li>
+
+
+                <li>
+                  <a href="modelo.html" class="link_header">
+                    <span class="ts-1">Quem somos</span>
+                  </a>
+                  &nbsp;
+                  &nbsp;
+                </li>
+
+
+                <li>
+                  <a href="#" class="link_header">
+                    <span class="ts-1">Pets</span>
+                  </a>
+                  &nbsp;
+                  &nbsp;
+
+
+                  <ul class="navbar">
+                    <li><a href="cachorão.html" class="link_header">Cachorros</a></li>
+                    <li><a href="pggatos.html" class="link_header">Gatos</a></li>
+                    <li><a href="aves.html" class="link_header">Aves</a></li>
+                    <li><a href="peixes.html" class="link_header">Peixes Ornamentais</a></li>
+                  </ul>
+
+                </li>
+
+                <li>
+                  <a href="parceiros.html" class="link_header">
+                    <span class="ts-1">Parceiros</span>
+                  </a>
+                  &nbsp;
+                  &nbsp;
+                </li>
+
+
+                <li>
+                  <a href="faleconosco.html" class="link_header">
+                    <span class="ts-1">Contatos</span>
+                  </a>
+                  &nbsp;
+                  &nbsp;
+                </li>
+
+              </ul>
+
+            </td>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+
+              <ul class="nav navbar-nav navbar-right">
+                  <li>
+                      <p class="navbar-text">Você já tem uma Conta ?</p>
+                  </li>
+                  <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span
+                              class="caret"></span></a>
+                      <ul id="login-dp" class="dropdown-menu">
+                          <li>
+                              <div class="row">
+                                  <div class="col-md-12">
+                                      Login via
+                                      <div class="social-buttons">
+                                          <a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i>
+                                              Facebook</a>
+                                          <a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i>
+                                              Twitter</a>
+                                      </div>
+                                      ou
+                                      <form class="form" role="form" method="post" action="login"
+                                          accept-charset="UTF-8" id="login-nav">
+                                          <div class="form-group">
+                                              <label class="sr-only" for="exampleInputEmail2">Endereço de email</label>
+                                              <input type="email" class="form-control"
+                                                  id="exampleInputEmail2" placeholder="Email address"
+                                                  required>
+                                          </div>
+                                          <div class="form-group">
+                                              <label class="sr-only"
+                                                  for="exampleInputPassword2">Senha</label>
+                                              <input type="password" class="form-control"
+                                                  id="exampleInputPassword2" placeholder="Password"
+                                                  required>
+                                              <div class="help-block text-right"><a href="">Esqueçeu a Senha?</a></div>
+                                          </div>
+                                          <div class="form-group">
+                                              <button type="submit" class="btn btn-primary btn-block">Conecte-se                                                                in</button>
+                                          </div>
+                                          <div class="checkbox">
+                                              <label>
+                                                  <input type="checkbox">Mantenha-me conectado
+                                              </label>
+                                          </div>
+                                      </form>
+                                  </div>
+                                  <div class="bottom text-center">
+                                  Novo Aqui ? <a href="cadastro.html"><b>junte-se a nós</b></a></div>
+                                  
+                              </div>
+                          </li>
+                      </ul>
+                  </li>
+              </ul>
+          </div>
+
+          </nav>
+        </tr>
+      </table>
+    </header>
+  </div>
+  <!--Fim do Cabeçalho-->
+  <br>
+  <br>
+
+  <div class="cont_home_principal">
+    <table>
+      <tr>
+        <td> <!-- Carousel 1 - Bootstrap-->
+
+          <div class="container">
+            <h2>Nossos parceiros</h2>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <!--
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                -->
+
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+
+                <div class="item active">
+                  <img src="img/Nestle_purina.jpeg" alt="Nestlé Purina" style="width: 100%;">
+                  <div class="carousel-caption">
+                    <h3>Nestlé Purina</h3>
+                  </div>
+                  <p>Nós da Nestlé® PURINA® acreditamos que pessoas e pets vivem melhor juntos, por isso nos dedicamos a
+                    melhorar a qualidade de vida e longevidade dos animais ...</p>
+                </div>
+
+                <div class="item">
+                  <img src="img/cobasi.jpeg" alt="Cobasi" style="width: 100%;">
+                  <div class="carousel-caption">
+                    <h3>Cobasi</h3>
+                  </div>
+                  <p>Líder no varejo pet há 27 anos, a Cobasi é pioneira no conceito de shopping para animais. Seu
+                    formato inovador tornou-se também uma opção de lazer para a ...</p>
+                </div>
+
+                <div class="item">
+                  <img src="img/guabi.jpeg" alt="Guabi Nutrição Animal" style="width: 100%;">
+                  <div class="carousel-caption">
+                    <h3>Guabi Nutrição Animal</h3>
+                  </div>
+                  <p>Guabi Natural é a marca pioneira no mercado de alimentos naturais para pets. Desde o nosso primeiro
+                    grão até hoje, nossas receitas são desenvolvidas por ...</p>
+                </div>
+
+                <div class="item">
+                  <img src="img/petz.jpeg" alt="Petz" style="width:100%;">
+                  <div class="carousel-caption">
+                    <h3>Petz</h3>
+                  </div>
+                  <p>Na Petz o maior petshop do Brasil, você compra online e escolhe como quer receber seu produto.
+                    Retire na loja ou receba em casa, frete grátis*</p>
+                </div>
+
+                <!--
+                  <div class="item">
+                    <img src="Imagens/img5.jpeg" alt="New York" style="width:100%;">
+                    <div class="carousel-caption">
+                      <h3>New York</h3>
+                      <p>We love the Big Apple!</p>
+                    </div>
+                  </div>
+                
+                </div>
+                -->
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!--Fim do Carousel-->
+        </td>
+
+      </tr>
+
+    </table>
+  </div>
+
+  <!--início Rodapé-->
+  <hr>
+  <div class="cont_footer">
+    <footer class="simple_footer">
+      <span>
+        &#169;Joan Lenon Deus Barbosa
+        <a href="mailto:joanlenon@gmail.com">joanlenon@gmail.com</a>
+      </span>
+      <br>
+      <span>2023 - 2023. Todos os direitos reservados. Segurança e Privacidade</span>
+    </footer>
+  </div>
+  <!--Fim Rodapé-->
+
+
+</body>
